@@ -1,0 +1,12 @@
+﻿<Window x:Class="ConvertToTags.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="297" Width="484" Icon="icon.ico">
+    <Grid>
+        <TextBox Name ="InputTextBox" Height="69" Margin="10,40,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Text to convert to tags" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="385"/>
+        <TextBox Name ="TagsTextBox" Height="102" Margin="10,144,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Tags" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="385"/>
+
+    </Grid>
+</Window>
